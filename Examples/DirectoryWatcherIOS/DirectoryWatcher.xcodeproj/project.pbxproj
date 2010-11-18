@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3804CB36129579EC00B493FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3804CB35129579EC00B493FF /* UIKit.framework */; };
+		3804CB38129579EC00B493FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3804CB37129579EC00B493FF /* Foundation.framework */; };
+		3804CB3A129579EC00B493FF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3804CB39129579EC00B493FF /* CoreGraphics.framework */; };
+		3804CB3F129579EC00B493FF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3804CB3D129579EC00B493FF /* InfoPlist.strings */; };
+		3804CB41129579EC00B493FF /* DirectoryWatcher-main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3804CB40129579EC00B493FF /* DirectoryWatcher-main.m */; };
+		3804CB44129579EC00B493FF /* DirectoryWatcherAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3804CB43129579EC00B493FF /* DirectoryWatcherAppDelegate.m */; };
+		3804CB47129579EC00B493FF /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3804CB45129579EC00B493FF /* MainWindow.xib */; };
+		3804CB4A129579EC00B493FF /* DirectoryWatcherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3804CB49129579EC00B493FF /* DirectoryWatcherViewController.m */; };
+		3804CB4D129579EC00B493FF /* DirectoryWatcherViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3804CB4B129579EC00B493FF /* DirectoryWatcherViewController.xib */; };
+		3804CB5B12957A2400B493FF /* TIKQDirectoryWatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 3804CB5A12957A2400B493FF /* TIKQDirectoryWatcher.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3804CB32129579EC00B493FF /* DirectoryWatcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DirectoryWatcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3804CB35129579EC00B493FF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3804CB37129579EC00B493FF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3804CB39129579EC00B493FF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3804CB3B129579EC00B493FF /* DirectoryWatcher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DirectoryWatcher-Info.plist"; sourceTree = "<group>"; };
+		3804CB3C129579EC00B493FF /* DirectoryWatcher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DirectoryWatcher-Prefix.pch"; sourceTree = "<group>"; };
+		3804CB3E129579EC00B493FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3804CB40129579EC00B493FF /* DirectoryWatcher-main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "DirectoryWatcher-main.m"; sourceTree = "<group>"; };
+		3804CB42129579EC00B493FF /* DirectoryWatcherAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DirectoryWatcherAppDelegate.h; sourceTree = "<group>"; };
+		3804CB43129579EC00B493FF /* DirectoryWatcherAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DirectoryWatcherAppDelegate.m; sourceTree = "<group>"; };
+		3804CB46129579EC00B493FF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		3804CB48129579EC00B493FF /* DirectoryWatcherViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DirectoryWatcherViewController.h; sourceTree = "<group>"; };
+		3804CB49129579EC00B493FF /* DirectoryWatcherViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DirectoryWatcherViewController.m; sourceTree = "<group>"; };
+		3804CB4C129579EC00B493FF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DirectoryWatcherViewController.xib; sourceTree = "<group>"; };
+		3804CB5912957A2400B493FF /* TIKQDirectoryWatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TIKQDirectoryWatcher.h; path = ../../../TIKQDirectoryWatcher.h; sourceTree = "<group>"; };
+		3804CB5A12957A2400B493FF /* TIKQDirectoryWatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TIKQDirectoryWatcher.m; path = ../../../TIKQDirectoryWatcher.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3804CB2F129579EC00B493FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3804CB36129579EC00B493FF /* UIKit.framework in Frameworks */,
+				3804CB38129579EC00B493FF /* Foundation.framework in Frameworks */,
+				3804CB3A129579EC00B493FF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3804CB23129579EC00B493FF = {
+			isa = PBXGroup;
+			children = (
+				3804CB2A129579EC00B493FF /* Classes */,
+				3804CB2B129579EC00B493FF /* Other Sources */,
+				3804CB2C129579EC00B493FF /* Resources */,
+				3804CB2D129579EC00B493FF /* Frameworks */,
+				3804CB33129579EC00B493FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3804CB2A129579EC00B493FF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3804CB5812957A1600B493FF /* TIKQDirectoryWatcher */,
+				3804CB42129579EC00B493FF /* DirectoryWatcherAppDelegate.h */,
+				3804CB43129579EC00B493FF /* DirectoryWatcherAppDelegate.m */,
+				3804CB48129579EC00B493FF /* DirectoryWatcherViewController.h */,
+				3804CB49129579EC00B493FF /* DirectoryWatcherViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3804CB2B129579EC00B493FF /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				3804CB3C129579EC00B493FF /* DirectoryWatcher-Prefix.pch */,
+				3804CB40129579EC00B493FF /* DirectoryWatcher-main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		3804CB2C129579EC00B493FF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3804CB3B129579EC00B493FF /* DirectoryWatcher-Info.plist */,
+				3804CB3D129579EC00B493FF /* InfoPlist.strings */,
+				3804CB45129579EC00B493FF /* MainWindow.xib */,
+				3804CB4B129579EC00B493FF /* DirectoryWatcherViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3804CB2D129579EC00B493FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3804CB35129579EC00B493FF /* UIKit.framework */,
+				3804CB37129579EC00B493FF /* Foundation.framework */,
+				3804CB39129579EC00B493FF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3804CB33129579EC00B493FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3804CB32129579EC00B493FF /* DirectoryWatcher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3804CB5812957A1600B493FF /* TIKQDirectoryWatcher */ = {
+			isa = PBXGroup;
+			children = (
+				3804CB5912957A2400B493FF /* TIKQDirectoryWatcher.h */,
+				3804CB5A12957A2400B493FF /* TIKQDirectoryWatcher.m */,
+			);
+			name = TIKQDirectoryWatcher;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3804CB31129579EC00B493FF /* DirectoryWatcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3804CB50129579EC00B493FF /* Build configuration list for PBXNativeTarget "DirectoryWatcher" */;
+			buildPhases = (
+				3804CB2E129579EC00B493FF /* Sources */,
+				3804CB2F129579EC00B493FF /* Frameworks */,
+				3804CB30129579EC00B493FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DirectoryWatcher;
+			productName = DirectoryWatcher;
+			productReference = 3804CB32129579EC00B493FF /* DirectoryWatcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3804CB25129579EC00B493FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Tim Isted";
+			};
+			buildConfigurationList = 3804CB28129579EC00B493FF /* Build configuration list for PBXProject "DirectoryWatcher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3804CB23129579EC00B493FF;
+			productRefGroup = 3804CB33129579EC00B493FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3804CB31129579EC00B493FF /* DirectoryWatcher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3804CB30129579EC00B493FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3804CB3F129579EC00B493FF /* InfoPlist.strings in Resources */,
+				3804CB47129579EC00B493FF /* MainWindow.xib in Resources */,
+				3804CB4D129579EC00B493FF /* DirectoryWatcherViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3804CB2E129579EC00B493FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3804CB41129579EC00B493FF /* DirectoryWatcher-main.m in Sources */,
+				3804CB44129579EC00B493FF /* DirectoryWatcherAppDelegate.m in Sources */,
+				3804CB4A129579EC00B493FF /* DirectoryWatcherViewController.m in Sources */,
+				3804CB5B12957A2400B493FF /* TIKQDirectoryWatcher.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3804CB3D129579EC00B493FF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3804CB3E129579EC00B493FF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3804CB45129579EC00B493FF /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3804CB46129579EC00B493FF /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		3804CB4B129579EC00B493FF /* DirectoryWatcherViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3804CB4C129579EC00B493FF /* en */,
+			);
+			name = DirectoryWatcherViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3804CB4E129579EC00B493FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.2;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3804CB4F129579EC00B493FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		3804CB51129579EC00B493FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DirectoryWatcher-Prefix.pch";
+				INFOPLIST_FILE = "DirectoryWatcher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3804CB52129579EC00B493FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DirectoryWatcher-Prefix.pch";
+				INFOPLIST_FILE = "DirectoryWatcher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3804CB28129579EC00B493FF /* Build configuration list for PBXProject "DirectoryWatcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3804CB4E129579EC00B493FF /* Debug */,
+				3804CB4F129579EC00B493FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3804CB50129579EC00B493FF /* Build configuration list for PBXNativeTarget "DirectoryWatcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3804CB51129579EC00B493FF /* Debug */,
+				3804CB52129579EC00B493FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3804CB25129579EC00B493FF /* Project object */;
+}

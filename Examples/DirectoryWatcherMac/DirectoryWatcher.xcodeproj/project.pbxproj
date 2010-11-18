@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		382D0DA5129552270010D256 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 382D0DA4129552260010D256 /* Cocoa.framework */; };
+		382D0DAA129552270010D256 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 382D0DA8129552270010D256 /* InfoPlist.strings */; };
+		382D0DAC129552270010D256 /* DirectoryWatcher-main.m in Sources */ = {isa = PBXBuildFile; fileRef = 382D0DAB129552270010D256 /* DirectoryWatcher-main.m */; };
+		382D0DAF129552270010D256 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 382D0DAD129552270010D256 /* MainMenu.xib */; };
+		382D0DB2129552270010D256 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 382D0DB0129552270010D256 /* Credits.rtf */; };
+		382D0DB5129552270010D256 /* DirectoryWatcherAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 382D0DB4129552270010D256 /* DirectoryWatcherAppDelegate.m */; };
+		38F4D8C9129564EA00DAD175 /* TIKQDirectoryWatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F4D8C8129564EA00DAD175 /* TIKQDirectoryWatcher.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		382D0DA1129552260010D256 /* DirectoryWatcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DirectoryWatcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		382D0DA4129552260010D256 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		382D0DA6129552270010D256 /* DirectoryWatcher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DirectoryWatcher-Info.plist"; sourceTree = "<group>"; };
+		382D0DA7129552270010D256 /* DirectoryWatcher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DirectoryWatcher-Prefix.pch"; sourceTree = "<group>"; };
+		382D0DA9129552270010D256 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		382D0DAB129552270010D256 /* DirectoryWatcher-main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "DirectoryWatcher-main.m"; sourceTree = "<group>"; };
+		382D0DAE129552270010D256 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		382D0DB1129552270010D256 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		382D0DB3129552270010D256 /* DirectoryWatcherAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DirectoryWatcherAppDelegate.h; sourceTree = "<group>"; };
+		382D0DB4129552270010D256 /* DirectoryWatcherAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DirectoryWatcherAppDelegate.m; sourceTree = "<group>"; };
+		382D0DBE129552270010D256 /* DirectoryWatcherTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DirectoryWatcherTests-Info.plist"; sourceTree = "<group>"; };
+		382D0DBF129552270010D256 /* DirectoryWatcherTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DirectoryWatcherTests-Prefix.pch"; sourceTree = "<group>"; };
+		382D0DC0129552270010D256 /* InfoPlist.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = en.lproj/DirectoryWatcherTests/InfoPlist.strings; sourceTree = "<group>"; };
+		38F4D8C7129564EA00DAD175 /* TIKQDirectoryWatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TIKQDirectoryWatcher.h; path = ../../../TIKQDirectoryWatcher.h; sourceTree = "<group>"; };
+		38F4D8C8129564EA00DAD175 /* TIKQDirectoryWatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TIKQDirectoryWatcher.m; path = ../../../TIKQDirectoryWatcher.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		382D0D9E129552260010D256 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				382D0DA5129552270010D256 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		382D0D92129552260010D256 = {
+			isa = PBXGroup;
+			children = (
+				382D0D99129552260010D256 /* Classes */,
+				382D0D9A129552260010D256 /* Other Sources */,
+				382D0D9B129552260010D256 /* Resources */,
+				382D0D9C129552260010D256 /* Frameworks */,
+				382D0DA2129552260010D256 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		382D0D99129552260010D256 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				38EAC08D1295654100515864 /* TIKQDirectoryWatcher */,
+				382D0DB3129552270010D256 /* DirectoryWatcherAppDelegate.h */,
+				382D0DB4129552270010D256 /* DirectoryWatcherAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		382D0D9A129552260010D256 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				382D0DA7129552270010D256 /* DirectoryWatcher-Prefix.pch */,
+				382D0DAB129552270010D256 /* DirectoryWatcher-main.m */,
+				382D0DBF129552270010D256 /* DirectoryWatcherTests-Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		382D0D9B129552260010D256 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				382D0DA6129552270010D256 /* DirectoryWatcher-Info.plist */,
+				382D0DA8129552270010D256 /* InfoPlist.strings */,
+				382D0DAD129552270010D256 /* MainMenu.xib */,
+				382D0DB0129552270010D256 /* Credits.rtf */,
+				382D0DBE129552270010D256 /* DirectoryWatcherTests-Info.plist */,
+				382D0DC0129552270010D256 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		382D0D9C129552260010D256 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				382D0DA4129552260010D256 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		382D0DA2129552260010D256 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				382D0DA1129552260010D256 /* DirectoryWatcher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38EAC08D1295654100515864 /* TIKQDirectoryWatcher */ = {
+			isa = PBXGroup;
+			children = (
+				38F4D8C7129564EA00DAD175 /* TIKQDirectoryWatcher.h */,
+				38F4D8C8129564EA00DAD175 /* TIKQDirectoryWatcher.m */,
+			);
+			name = TIKQDirectoryWatcher;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		382D0DA0129552260010D256 /* DirectoryWatcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 382D0DCA129552270010D256 /* Build configuration list for PBXNativeTarget "DirectoryWatcher" */;
+			buildPhases = (
+				382D0D9D129552260010D256 /* Sources */,
+				382D0D9E129552260010D256 /* Frameworks */,
+				382D0D9F129552260010D256 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DirectoryWatcher;
+			productName = DirectoryWatcher;
+			productReference = 382D0DA1129552260010D256 /* DirectoryWatcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		382D0D94129552260010D256 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Tim Isted";
+			};
+			buildConfigurationList = 382D0D97129552260010D256 /* Build configuration list for PBXProject "DirectoryWatcher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 382D0D92129552260010D256;
+			productRefGroup = 382D0DA2129552260010D256 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				382D0DA0129552260010D256 /* DirectoryWatcher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		382D0D9F129552260010D256 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				382D0DAA129552270010D256 /* InfoPlist.strings in Resources */,
+				382D0DAF129552270010D256 /* MainMenu.xib in Resources */,
+				382D0DB2129552270010D256 /* Credits.rtf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		382D0D9D129552260010D256 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				382D0DAC129552270010D256 /* DirectoryWatcher-main.m in Sources */,
+				382D0DB5129552270010D256 /* DirectoryWatcherAppDelegate.m in Sources */,
+				38F4D8C9129564EA00DAD175 /* TIKQDirectoryWatcher.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		382D0DA8129552270010D256 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				382D0DA9129552270010D256 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		382D0DAD129552270010D256 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				382D0DAE129552270010D256 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		382D0DB0129552270010D256 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				382D0DB1129552270010D256 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		382D0DC6129552270010D256 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		382D0DC7129552270010D256 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		382D0DC8129552270010D256 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		382D0DC9129552270010D256 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		382D0DCB129552270010D256 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DirectoryWatcher-Prefix.pch";
+				INFOPLIST_FILE = "DirectoryWatcher-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		382D0DCC129552270010D256 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DirectoryWatcher-Prefix.pch";
+				INFOPLIST_FILE = "DirectoryWatcher-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		382D0D97129552260010D256 /* Build configuration list for PBXProject "DirectoryWatcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				382D0DC6129552270010D256 /* Debug */,
+				382D0DC7129552270010D256 /* Release */,
+				382D0DC8129552270010D256 /* Debug */,
+				382D0DC9129552270010D256 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		382D0DCA129552270010D256 /* Build configuration list for PBXNativeTarget "DirectoryWatcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				382D0DCB129552270010D256 /* Debug */,
+				382D0DCC129552270010D256 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 382D0D94129552260010D256 /* Project object */;
+}
