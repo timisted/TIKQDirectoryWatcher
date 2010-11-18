@@ -98,7 +98,7 @@ void TIKQSocketCallback( CFSocketRef socketRef, CFSocketCallBackType type, CFDat
 
 - (void)notifyActivityOnPath:(NSString *)aPath
 {
-    NSLog(@"TIKQDirectoryWatcher observed activity in %@", aPath);
+    // NSLog(@"TIKQDirectoryWatcher observed activity in %@", aPath);
     
     [[NSNotificationCenter defaultCenter] 
      postNotificationName:kTIKQDirectoryWatcherObservedDirectoryActivityNotification 
