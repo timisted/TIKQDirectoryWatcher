@@ -47,7 +47,7 @@ To test for notifications, add or remove a file at the root level of `/tmp` or `
 ###iOS Example
 The iOS example checks for changes made in the application's `/Documents` and `/tmp` directories. Click the relevant button to add new files to these locations, and trigger the notifications as long as the watcher is enabled.
 
-Also try adding a file to the application's `/Documents` directory through Xcode.
+The Info.plist has `UIFileSharingEnabled` set to `YES`. When running on a device (iOS 3.2/4 or higher), try adding a file to the application's `/Documents` directory using the File Sharing option under the device's Apps tab in iTunes.
 
 ##Acknowledgements
 Some portions of this code are based on Chapter 15, *kqueues*, of *[Advanced Mac OS X Programming (Second Edition)](http://www.amazon.com/gp/product/0974078514?ie=UTF8&tag=timist-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0974078514)* by Mark Dalrymple and Aaron Hillegass.
