@@ -86,6 +86,7 @@ void TIKQSocketCallback( CFSocketRef socketRef, CFSocketCallBackType type, CFDat
     _runLoopSourceRef = CFSocketCreateRunLoopSource(NULL, runLoopSocket, 0);
     if( _runLoopSourceRef == NULL ) {
         NSLog(@"Could not create a run loop source reference");
+        CFRelease(runLoopSocket);
         return NO;
     }
     
@@ -98,8 +99,6 @@ void TIKQSocketCallback( CFSocketRef socketRef, CFSocketCallBackType type, CFDat
 
 - (void)notifyActivityOnPath:(NSString *)aPath
 {
-    // NSLog(@"TIKQDirectoryWatcher observed activity in %@", aPath);
-    
     [[NSNotificationCenter defaultCenter] 
      postNotificationName:kTIKQDirectoryWatcherObservedDirectoryActivityNotification 
      object:self userInfo:
