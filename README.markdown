@@ -22,6 +22,10 @@ Add one or more directories to watch:
 
 This method will return `NO` if the watcher can't find the specified directory, or if any other error occurs. At the moment, the `NSError` object is ignored, but will be configured soon. For now, errors are simply logged to the console.
 
+Finally, you'll need to schedule the watcher on the run loop:
+
+    success = [directoryWatcher scheduleWatcherOnMainRunLoop:&anyError];
+
 ###Notifications
 You'll need to register to receive `kTIKQDirectoryWatcherObservedDirectoryActivityNotification` notifications when changes occur:
 
