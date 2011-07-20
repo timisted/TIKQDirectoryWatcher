@@ -18,8 +18,6 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#import <Foundation/Foundation.h>
-
 extern NSString * const kTIKQDirectoryWatcherObservedDirectoryActivityNotification;
 extern NSString * const kTIKQDirectory;
 extern NSString * const kTIKQExpandedDirectory;
@@ -28,6 +26,7 @@ extern NSString * const kTIKQExpandedDirectory;
 @private
     int _kqFileDescriptor;
     CFRunLoopSourceRef _runLoopSourceRef;
+    NSMutableArray *_watchedDirectories;
 }
 
 - (void)notifyActivityOnPath:(NSString *)aPath;
@@ -36,5 +35,6 @@ extern NSString * const kTIKQExpandedDirectory;
 
 @property (nonatomic, readonly) int kqFileDescriptor;
 @property (nonatomic, readonly) CFRunLoopSourceRef runLoopSourceRef;
+@property (nonatomic, retain) NSMutableArray *watchedDirectories;
 
 @end
